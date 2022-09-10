@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himalayan tour using HTML</title>
+</head>
+<body background="himalayas.jpg">
+
+    <header>
+        <h3 align="center">
+            <font face="arial" size="5" color="green">
+                India Tour & Travels
+            </font>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <font face="arial" size="3">
+            <a href="index.html" style="color:chocolate;">Home</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="tourpackages.html " style="color:chocolate;">Tour Packages</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="Feedback" style="color:chocolate;">Feedback</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="Contact" style="color:chocolate;">Contact</a>
+            </font> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <font face="arial" size="2">
+                <a href="login" style="color: black;">Sign in</a>
+            </font>
+        </h3>
+    </header>
+    
+    <main>
+        <section>
+            <hr><br><br><br><br><br>
+            <h3 align="center">
+                <font face="arial" size="5" color="green">
+                    <u> <i>Book Himalayan Tour Packages</i> </u> 
+                </font><br><br>
+                <form action="himalaya_booking.js">
+                    <input type="text" placeholder="Enter your name"><br><br>
+                    <label for="tourdt">
+                        <input type="date" name="Tour date" id="tourdt">
+                    </label><br><br>
+                     <u>PLEASE SELECT DESTINATION</u>
+                     <br>
+                    <label for="placeidHP">
+                        <input type="radio" value="Himachal" name="Place" id="placeidHP">Himachal Pradesh
+                    </label><br>
+                    <label for="placeidJK">
+                        <input type="radio" value="J&K" name="Place" id="placeidJK">Jammu & Kashmir
+                    </label><br>
+                    <label for="placeidSK">
+                        <input type="radio" value="Sikkim" name="Place" id="placeidSK">Sikkim
+                    </label><br>
+                    <label for="placeidDJ">
+                        <input type="radio" value="Darjeeling" name="Place" id="placeidDJ">Darjeeling
+                    </label><br><br>
+                    <u> TOUR ADDONS </u>
+                    <br>
+                    <label for="pickup">
+                        <input type="checkbox" value="pickup from home" name="addons" id="pickup">Pickup from home
+                    </label><br>
+                    <label for="food">
+                        <input type="checkbox" value="veg&nonveg" name="addons" id="food">Want veg & nnveg both
+                    </label><br>
+                    <label for="beddec">
+                        <input type="checkbox" value="beddecoration" name="addons" id="beddec">Honeymoon bed decoration
+                    </label><br>
+                    <label for="childcr">
+                        <input type="checkbox" value="child care" name="addons" id="childcr">Child care needed
+                    </label><br><br>
+                    <select name="car" id="cartype">
+                        <option value="no car">Select your car</option>
+                        <option value="Dzire">Dzire</option>
+                        <option value="Innova">Innova</option>
+                        <option value="Traveller">Traveller</option>
+                        <option value="Swift">Swift</option>
+                    </select><br><br>
+                    <textarea name="feedback" id="fdback" cols="30" rows="5" placeholder="Please give your valuable feedback"></textarea>
+
+                </form>
+            </h3>
+        </section>
+        <section>
+            <br><br><hr><br><br>
+            <h3 align="center">
+                <font face="arial" size="5" color="blue">
+                    <u> <i>Book Sea-beach Tour Packages</i> </u> 
+                </font><br><br>
+                <form action="himalaya_booking.js">
+                    <input type="text" placeholder="Enter your name"><br><br>
+                    <label for="tourdt">
+                        <input type="date" name="Tour date" id="tourdt">
+                    </label><br><br>
+                    <font color="yellow">
+                     <u>PLEASE SELECT DESTINATION</u>
+                     <br>
+                    <label for="placeidHP">
+                        <input type="radio" value="Himachal" name="Place" id="placeidHP">Himachal Pradesh
+                    </label><br>
+                    <label for="placeidJK">
+                        <input type="radio" value="J&K" name="Place" id="placeidJK">Jammu & Kashmir
+                    </label><br>
+                    <label for="placeidSK">
+                        <input type="radio" value="Sikkim" name="Place" id="placeidSK">Sikkim
+                    </label><br>
+                    <label for="placeidDJ">
+                        <input type="radio" value="Darjeeling" name="Place" id="placeidDJ">Darjeeling
+                    </label><br><br>
+                    <u> TOUR ADDONS </u>
+                    <br>
+                    <label for="pickup">
+                        <input type="checkbox" value="pickup from home" name="addons" id="pickup">Pickup from home
+                    </label><br>
+                    <label for="food">
+                        <input type="checkbox" value="veg&nonveg" name="addons" id="food">Want veg & nnveg both
+                    </label><br>
+                    <label for="beddec">
+                        <input type="checkbox" value="beddecoration" name="addons" id="beddec">Honeymoon bed decoration
+                    </label><br>
+                    <label for="childcr">
+                        <input type="checkbox" value="child care" name="addons" id="childcr">Child care needed
+                    </label>
+                    </font>
+                    <br><br>
+                    <select name="car" id="cartype">
+                        <option value="no car">Select your car</option>
+                        <option value="Dzire">Dzire</option>
+                        <option value="Innova">Innova</option>
+                        <option value="Traveller">Traveller</option>
+                        <option value="Swift">Swift</option>
+                    </select><br><br>
+                    <textarea name="feedback" id="fdback" cols="30" rows="5" placeholder="Please give your valuable feedback"></textarea>
+
+                </form>
+            </h3>
+        </section><br><hr>
+        
+        <article>
+            <font color="white">
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cumque deserunt, eius eaque facilis quod!
+            </p>
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cumque deserunt, eius eaque facilis quod! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.
+            </p>
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cumque deserunt, eius eaque facilis quod! Lorem ipsum dolor sit.
+            </p>
+             </font>
+        </article><br><hr><br>
+
+        <aside>
+            <p align="center">
+                <span>
+                    This area is for Advertisement
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    <font color="white">
+                    This area is for Advertisement
+                        </font>
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    <font color="white">
+                        This area is for Advertisement
+                        </font>
+                </span>
+            </p>    
+        </aside>
+    </main><br><hr>
+    
+    <footer>
+        <marquee bgcolor="yellow">
+            <font size="4">
+                THIS IS MY FIRST PROJECT ON HTML5
+            </font>
+        </marquee>
+    </footer>
+
+</body>
+</html>
